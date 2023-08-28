@@ -1,0 +1,18 @@
+.notification {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 1.2rem;
+  max-width: 300px;
+  word-break: break-all;
+  border-radius: 5px;
+  top: 2rem;
+  right: 1.5rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  cursor: pointer;
+}

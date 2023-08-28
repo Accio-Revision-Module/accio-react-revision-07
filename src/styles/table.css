@@ -1,0 +1,21 @@
+table {
+  margin: auto;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  min-width: 20rem;
+}
+
+th {
+  padding: 1rem;
+  border: 1px solid #333;
+  background-color: #111;
+}
+
+td {
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+tr:nth-of-type(2n) {
+  background-color: gray;
+}

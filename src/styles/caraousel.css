@@ -1,0 +1,23 @@
+.caraousel {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.caraousel img {
+  width: 25rem;
+  height: 25rem;
+  background-size: cover;
+  transition: all 0.5s;
+}
+
+.images {
+  display: flex;
+  overflow: hidden;
+  width: 25rem;
+  height: 25rem;
+}

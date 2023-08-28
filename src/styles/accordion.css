@@ -1,0 +1,37 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  padding: 1rem;
+}
+
+.accordion-title {
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-data {
+  margin-top: 1rem;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.show {
+  max-height: 500px;
+}
+
+.icon {
+  transform: rotate(0deg);
+  transition: all 0.2s;
+}
+
+.icon-clicked {
+  transform: rotate(180deg);
+  transition: all 0.2s;
+}
